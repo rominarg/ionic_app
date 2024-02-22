@@ -6,6 +6,47 @@
 
 <ion-content [fullscreen]="true">
   <div id="container">
+    <ion-grid class="custom-orange-grid">
+      <ion-row>
+        <ion-col size="6">
+          <ion-card class="custom-orange-card">
+            <ion-card-header>
+              <ion-card-subtitle>Subtítulo 1</ion-card-subtitle>
+              <ion-card-title>Título 1</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              Contenido 1
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+    
+        <ion-col size="6">
+          <ion-card class="custom-orange-card">
+            <ion-card-header>
+              <ion-card-subtitle>Subtítulo 2</ion-card-subtitle>
+              <ion-card-title>Título 2</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              Contenido 2
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    
+      <ion-row>
+        <ion-col size="12">
+          <ion-card class="custom-orange-card">
+            <ion-card-header>
+              <ion-card-subtitle>Subtítulo 3</ion-card-subtitle>
+              <ion-card-title>Título 3</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              Contenido 3
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
       <!-- Opción 1: Usando [routerLink] -->
       <ion-button [routerLink]="['/customers']" class="btn">Go to customers</ion-button>
       <!-- Opción 2: Usando (click) -->
