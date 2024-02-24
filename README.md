@@ -9,3 +9,10 @@ Este proyecto es una aplicación desarrollada con el framework Ionic y Angular. 
 - Consumo de datos desde la [API de Rick and Morty](https://rickandmortyapi.com/).
 - Visualización de información detallada sobre los personajes, incluyendo nombres e imágenes.
 - Navegación entre diferentes secciones de la aplicación.
+
+## Tecnologías Utilizadas
+
+- Ionic Framework
+- Angular
+- TypeScript
+- Consumo de API REST
