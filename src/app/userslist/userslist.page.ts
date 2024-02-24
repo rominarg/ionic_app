@@ -1,6 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { UserslistPage } from './userslist.html';
+
+interface Character {
+  name: string;
+  image: string;
+  // Otros campos necesarios...
+}
 
 @Component({
   selector: 'app-userslist',
@@ -9,7 +14,7 @@ import { UserslistPage } from './userslist.html';
 })
 export class UserslistPage implements OnInit {
 
-  character = []
+  characters: Character[] = [];
 
 
   constructor(
@@ -20,7 +25,7 @@ export class UserslistPage implements OnInit {
     this.http.get<any>('https://rickandmortyapi.com/api/character')
     .subscribe(res => {
       console.log(res); 
-      this.character = res.results;
+      this.characters = res.results;
     })
   }
 
