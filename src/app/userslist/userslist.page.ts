@@ -4,7 +4,6 @@ import { HttpClient } from '@angular/common/http';
 interface Character {
   name: string;
   image: string;
-  // Otros campos necesarios...
 }
 
 @Component({
