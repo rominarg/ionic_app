@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'userslist',
     loadChildren: () => import('./userslist/userslist.module').then( m => m.UserslistPageModule)
+  },
+  {
+    path: 'producto',
+    loadChildren: () => import('./producto/producto.module').then( m => m.ProductoPageModule)
   }
 ];
 
