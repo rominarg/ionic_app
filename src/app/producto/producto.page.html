@@ -1,8 +1,21 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>producto</ion-title>
+    <ion-title>Product</ion-title>
+    <ion-button slot="end" >
+    </ion-button>
+    <ion-icon :icon="barcode" slot="icon-only"></ion-icon>
   </ion-toolbar>
 </ion-header>
+
+
+  <ion-segment-button value="search">
+    <ion-label>Search</ion-label> 
+  </ion-segment-button>
+  <ion-segment-button value="search">
+    <ion-label>Recomendation</ion-label> 
+  </ion-segment-button>
+  <ion-button routerLink="/producto">Ver Producto</ion-button>
+
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">

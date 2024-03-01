@@ -10,7 +10,21 @@
               <ion-icon aria-hidden="true" slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
               <ion-label>{{ p.title }}</ion-label>
             </ion-item>
+            <ion-menu-toggle auto-hide="false">
+              <ion-item routerDirection="root" routerLink="/userlist" lines="none" detail="false" routerLinkActive="selected">
+                <ion-icon aria-hidden="true" slot="start" name="people-outline"></ion-icon>
+                <ion-label>User List</ion-label>
+              </ion-item>
+            </ion-menu-toggle>
+          
           </ion-menu-toggle>
+          <ion-menu-toggle auto-hide="false">
+            <ion-item routerDirection="root" routerLink="/producto" lines="none" detail="false" routerLinkActive="selected">
+              <ion-icon aria-hidden="true" slot="start" name="barcode-outline"></ion-icon>
+              <ion-label>Ver Producto</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
         </ion-list>
 
       </ion-content>
