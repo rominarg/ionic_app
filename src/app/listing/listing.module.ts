@@ -8,7 +8,8 @@ import { ListingPageRoutingModule } from './listing-routing.module';
 
 import { ListingPage } from './listing.page';
 import { SearchbarModule } from '../components/searchbar/seachbar.modules';
-import { CategoryItemModule } from '../components/categoty-item/category-item.module';
+import { CategoryItemModule } from '../components/category-item/category-item.module';
+
 
 @NgModule({
   imports: [
@@ -17,7 +18,7 @@ import { CategoryItemModule } from '../components/categoty-item/category-item.mo
     IonicModule,
     ListingPageRoutingModule,
     SearchbarModule,
-    CategoryItemModule,
+    CategoryItemModule
   ],
   declarations: [ListingPage]
 })

@@ -22,7 +22,7 @@ export class ListingPage implements OnInit {
       {
         id: 1,
         label: 'all',
-        image: 'asset/icon/all.png',
+        image: 'assets/images/restaurant.svg',
         active: false,
       },
       {

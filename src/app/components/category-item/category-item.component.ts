@@ -3,8 +3,8 @@ import { Category } from 'src/app/models/category.models';
 
 @Component({
   selector: 'app-categoty-item',
-  templateUrl: './categoty-item.component.html',
-  styleUrls: ['./categoty-item.component.scss'],
+  templateUrl: './category-item.component.html',
+  styleUrls: ['./category-item.component.scss'],
 })
 export class CategotyItemComponent {
 @Input() item: Category;
