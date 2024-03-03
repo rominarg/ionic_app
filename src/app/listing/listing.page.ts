@@ -28,19 +28,19 @@ export class ListingPage implements OnInit {
       {
         id: 2,
         label: 'Burgers',
-        image: 'URL_DE_LA_IMAGEN', // Reemplaza con la URL de la imagen
+        image: 'assets/images/burguer.svg', 
         active: false,
       },
       {
         id: 3,
         label: 'Dishes',
-        image: 'URL_DE_LA_IMAGEN', // Reemplaza con la URL de la imagen
+        image: 'assets/images/restaurant.svg', 
         active: false,
       },
       {
         id: 4,
         label: 'Sushi',
-        image: 'URL_DE_LA_IMAGEN', // Reemplaza con la URL de la imagen
+        image: 'assets/images/burguer.svg', 
         active: false,
       },
     ];
