@@ -33,14 +33,14 @@ export class ListingPage implements OnInit {
       },
       {
         id: 3,
-        label: 'Dishes',
-        image: 'assets/images/restaurant.svg', 
+        label: 'Pizza',
+        image: 'assets/images/pizza.svg', 
         active: false,
       },
       {
         id: 4,
-        label: 'Sushi',
-        image: 'assets/images/burguer.svg', 
+        label: 'Ice Cream',
+        image: 'assets/images/icecream.svg', 
         active: false,
       },
     ];
