@@ -33,13 +33,13 @@ export class ListingPage implements OnInit {
       },
       {
         id: 3,
-        label: 'dishes',
+        label: 'Dishes',
         image: 'URL_DE_LA_IMAGEN', // Reemplaza con la URL de la imagen
         active: false,
       },
       {
         id: 4,
-        label: 'sushi',
+        label: 'Sushi',
         image: 'URL_DE_LA_IMAGEN', // Reemplaza con la URL de la imagen
         active: false,
       },
