@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Category } from '../models/category.models';
 import { Food } from '../models/food.model';
+import { FoodService } from '../services/food.service';
 
 @Component({
   selector: 'app-listing',
@@ -9,12 +10,14 @@ import { Food } from '../models/food.model';
 })
 export class ListingPage implements OnInit {
   categories: Category[] = [];
-  food: Food[] = [];
-  constructor() { }
+  foods: Food[] = [];
+
+  constructor(private FoodService: FoodService) { }
 
   ngOnInit() {
     // Llama al método getCategories al iniciar la página
     this.getCategories();
+    this.foods = this.foodService.getFoods();
   }
 
   getCategories() {

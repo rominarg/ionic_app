@@ -46,7 +46,7 @@ export class FoodService {
         ];
     }
 
-    getFood(id: number): Food | undefined {
-        return this.getFoods().find(food => food.id === id);
+    getFood(id: number): Food {
+        return this.getFoods().find((food) => food.id === id);
     }
 }
