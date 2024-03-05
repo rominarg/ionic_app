@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Category } from '../models/category.models';
+import { Food } from '../models/food.model';
 
 @Component({
   selector: 'app-listing',

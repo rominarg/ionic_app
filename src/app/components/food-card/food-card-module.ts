@@ -3,7 +3,7 @@ import { NgModule } from "@angular/core";
 import { FoodCardComponent } from "./food-card.component";
 
 @NgModule({
-    declarations: [],
+    declarations: [FoodCardComponent],
     imports: [CommonModule],
     exports: [FoodCardComponent],
   })
