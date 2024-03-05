@@ -8,7 +8,7 @@ import { Category } from '../models/category.models';
 })
 export class ListingPage implements OnInit {
   categories: Category[] = [];
-
+  food: Food[] = [];
   constructor() { }
 
   ngOnInit() {
