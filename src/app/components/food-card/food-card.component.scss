@@ -1,6 +1,6 @@
 .card {
     width: 100%;
-    padding: 1.6rem 2 rem;
+    padding: 1.6rem 2rem;  /* Ajusté el espacio entre 2 y rem */
     background: #f3f3f3;
     display: flex;
     flex-direction: column;
@@ -13,10 +13,10 @@
     text-align: center;
 
     .title {
-    font-weight: 700;
-    font-size: 1.1rem;
-    margin-bottom: 0.2rem;
-    color: #1d1d1d;
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-bottom: 0.2rem;
+        color: #1d1d1d;
     }
 
     .subtitle {
@@ -25,7 +25,7 @@
         color: #ffb800;
         margin-top: 0;
 
-        sup{
+        sup {
             font-size: 1rem;
             margin-right: 2px;
         }
@@ -36,20 +36,19 @@
         bottom: -1rem;
         left: 50%;
         transform: translateX(-50%);
-   
 
-    ion-buttons {
-        --background:#1d1d1d;
-        font-weight: 700;
-        color:#fff;
-        width: 40px;
-        height: 40px;
+        ion-button {
+            --background: #1d1d1d;
+            font-weight: 700;
+            color: #fff;
+            width: 40px;
+            height: 40px;
 
-        --padding-start: 0;
-        --padding-end:0;
-        --padding-top: 0;
-        --padding-bottom: 0;
+            --padding-start: 0;
+            --padding-end: 0;
+            --padding-top: 0;
+            --padding-bottom: 0;
+        }
     }
-}
 }
 }
