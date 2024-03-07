@@ -12,7 +12,7 @@ export class ListingPage implements OnInit {
   categories: Category[] = [];
   foods: Food[] = [];
 
-  constructor(private FoodService: FoodService) { }
+  constructor(private foodService: FoodService) { }
 
   ngOnInit() {
     // Llama al método getCategories al iniciar la página
