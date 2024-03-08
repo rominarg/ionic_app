@@ -7,9 +7,9 @@ import { IonicModule } from '@ionic/angular';
 import { ListingPageRoutingModule } from './listing-routing.module';
 
 import { ListingPage } from './listing.page';
-import { SearchbarModule } from '../components/searchbar/seachbar.modules';
-import { CategoryItemModule } from '../components/category-item/category-item.module';
-import { FoodCardModule } from '../components/food-card/food-card-module';
+import { SearchbarModule } from '../../components/searchbar/seachbar.modules';
+import { CategoryItemModule } from '../../components/category-item/category-item.module';
+import { FoodCardModule } from '../../components/food-card/food-card-module';
 
 
 @NgModule({

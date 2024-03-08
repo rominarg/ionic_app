@@ -20,7 +20,7 @@ const routes: Routes = [
   },
   {
     path: 'listing',
-    loadChildren: () => import('./listing/listing.module').then( m => m.ListingPageModule)
+    loadChildren: () => import('./screens/listing/listing.module').then( m => m.ListingPageModule)
   }
 ];
 

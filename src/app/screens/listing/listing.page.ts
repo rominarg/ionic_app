@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Category } from '../models/category.models';
-import { Food } from '../models/food.model';
-import { FoodService } from '../services/food.service';
+import { Category } from '../../models/category.models';
+import { Food } from '../../models/food.model';
+import { FoodService } from '../../services/food.service';
 
 @Component({
   selector: 'app-listing',
