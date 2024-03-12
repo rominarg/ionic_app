@@ -4,6 +4,7 @@ import { Food } from '../models/food.model';
 @Injectable({
     providedIn: 'root'
 })
+
 export class FoodService {
     getFoods(): Food[] {
         return [
